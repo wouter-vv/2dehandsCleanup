@@ -1,6 +1,7 @@
 # 2dehandsCleanup
 cleanup 2dehands posts
 
+```
 www.2dehands.be##:xpath(//li[contains(@class, 'mp-Listing') and descendant::span[contains(text(), 'Topzoekertje')]])
 www.2dehands.be##:xpath(//li[contains(@class, 'mp-Listing') and contains(.//a, 'Naar website')])
 www.2dehands.be##:xpath(//li[contains(@class, 'mp-Listing') and descendant::span[contains(text(), 'Deco Home and Garden')]])
@@ -23,4 +24,4 @@ www.2dehands.be##li.mp-Listing--cas.mp-Listing--list-item.mp-Listing:nth-of-type
 www.2dehands.be##li.mp-Listing--cas.mp-Listing--list-item.mp-Listing:nth-of-type(3)
 www.2dehands.be##li.mp-Listing--cas.mp-Listing--list-item.mp-Listing:nth-of-type(4)
 www.2dehands.be##.mp-Listings__admarktTitle > span
-
+```
